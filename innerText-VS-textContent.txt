@@ -1,0 +1,7 @@
+The innerText property sets or returns the text content of the specified node, and all its descendants.
+
+If you set the innerText property, any child nodes are removed and replaced by a single Text node containing the specified string.
+
+Note: This property is similar to the textContent property, however there are some differences:
+
+textContent returns the text content of all elements, while innerText returns the content of all elements, except for <script> and <style> elements.
